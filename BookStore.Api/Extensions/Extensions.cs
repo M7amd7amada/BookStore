@@ -13,6 +13,6 @@ public static class Extensions
 
         builder.Services
             .AddApplication()
-            .AddInfrastructure();
+            .AddInfrastructure(builder.Configuration);
     }
 }
